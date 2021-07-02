@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+header {
+  background-color: black;
+}
+
+header > a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer, footer > a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#cards {
+  margin-top: 3vh;
+}
+
+.card-group {
+  margin-left: 9vw;
+  margin-right: 8vw;
+}
+
+.card {
+  margin-right: 3vw;
+}
+
+input {
+  width: 15vw;
+  border: none;
+  background: none;
+  color: red;
+  font-size: 25px;
+  pointer-events: none;
+}
+
+#likebtn, #dislikebtn {
+  color: white;
+  background: none;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#likebtn:active, #dislikebtn:active {
+  color: red;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#tvshowImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#vpn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=styles.css.map */

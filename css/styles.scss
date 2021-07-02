@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: black;
+}
+
+
+
+
+header {
+    background-color: black;
+}
+header > a {
+    display: flex;
+    justify-content: center;
+}
+
+
+footer, footer > a {
+    display: flex;
+    justify-content: center;    
+}
+
+
+#cards {
+    margin-top: 3vh;
+}
+
+.card-group {
+    margin-left: 9vw;
+    margin-right: 8vw;
+}
+
+.card {
+    margin-right: 3vw;
+}
+
+
+//Likes//
+input {
+    width: 15vw;
+    border: none;
+    background: none;
+    color: red;
+    font-size: 25px;
+    pointer-events: none;
+
+}
+
+
+#likebtn, #dislikebtn {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+#likebtn:active, #dislikebtn:active {
+    color: red;
+    transform: scale(1.2);
+}
+//Likes//
+
+
+#tvshowImg {
+    display: flex;
+    justify-content: center;
+
+}
+
+#vpn {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+// @media screen and (min-width: 700px) and (max-width: 1200px) {
+//     body {
+//         background: red;
+//     }
+//     .card-group {
+//       width: 1000% !important;
+//     }
+// }

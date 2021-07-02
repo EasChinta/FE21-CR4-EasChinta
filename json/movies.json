@@ -1,0 +1,87 @@
+var movies = `[
+        {
+            "title": "The Cotton Club",
+            "plot": "The Cotton Club was a famous night club in Harlem. The story follows the people that visited the club, those that ran it, and is peppered with the Jazz music that made it so famous.",
+            "year": "1984",
+            "director": "Francis Ford Coppola",
+            "actors": "Richard Gere, Gregory Hines, Diane Lane, Lonette McKee",
+            "image":"../images/The Cotton Club.jpg",
+            "likes":"38",
+            "dislikes":"6"
+        },
+        {
+            "title": "The Shawshank Redemption",
+            "plot": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+            "year": "1994",
+            "director": "Frank Darabont",
+            "actors": "Tim Robbins, Morgan Freeman, Bob Gunton, William Sadler",
+            "image":"../images/The Shawshank Redemption.jpeg",
+            "likes":"78",
+            "dislikes":"2"
+
+        },
+        {
+            "title": "Crocodile Dundee",
+            "plot": "An American reporter goes to the Australian outback to meet an eccentric crocodile poacher and invites him to New York City.",
+            "year": "1986",
+            "director": "Peter Faiman",
+            "actors": "Paul Hogan, Linda Kozlowski, John Meillon, David Gulpilil",
+            "image":"../images/Crocodile Dundee.jpg",
+            "likes":"65",
+            "dislikes":"4"
+
+        },
+        {
+            "title": "Valkyrie",
+            "plot": "A dramatization of the 20 July assassination and political coup plot by desperate renegade German Army officers against Hitler during World War II.",
+            "year": "2008",
+            "director": "Bryan Singer",
+            "actors": "Tom Cruise, Kenneth Branagh, Bill Nighy, Tom Wilkinson",
+            "image":"../images/Valkyrie.jpeg",
+            "likes":"93",
+            "dislikes":"8"
+        },
+        {
+            "title": "Ratatouille",
+            "plot": "A rat who can cook makes an unusual alliance with a young kitchen worker at a famous restaurant.",
+            "year": "2007",
+            "director": "Brad Bird, Jan Pinkava",
+            "actors": "Patton Oswalt, Ian Holm, Lou Romano, Brian Dennehy",
+            "image":"../images/Ratatouille.jpeg",
+            "likes":"34",
+            "dislikes":"1"
+
+        },
+        {
+            "title": "City of God",
+            "plot": "Two boys growing up in a violent neighborhood of Rio de Janeiro take different paths: one becomes a photographer, the other a drug dealer.",
+            "year": "2002",
+            "director": "Fernando Meirelles, Kátia Lund",
+            "actors": "Alexandre Rodrigues, Leandro Firmino, Phellipe Haagensen, Douglas Silva",
+            "image":"../images/City of God.jpeg",
+            "likes":"64",
+            "dislikes":"2"
+        },
+        {
+            "title": "Memento",
+            "plot": "A man juggles searching for his wife's murderer and keeping his short-term memory loss from being an obstacle.",
+            "year": "2000",
+            "director": "Christopher Nolan",
+            "actors": "Guy Pearce, Carrie-Anne Moss, Joe Pantoliano, Mark Boone Junior",
+            "image":"../images/Memento.jpg",
+            "likes":"71",
+            "dislikes":"4"
+        },
+        {
+            "title": "The Intouchables",
+            "plot": "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver.",
+            "year": "2011",
+            "director": "Olivier Nakache, Eric Toledano",
+            "actors": "François Cluzet, Omar Sy, Anne Le Ny, Audrey Fleurot",
+            "image":"../images/The Intouchables.jpeg",
+            "likes":"92",
+            "dislikes":"13"
+        }
+
+    
+]`
