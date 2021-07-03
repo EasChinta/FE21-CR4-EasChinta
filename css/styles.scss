@@ -1,96 +1,61 @@
 * {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 body {
-    background-color: black;
+  background-color: black;
 }
-
-
-
 
 header {
-    background-color: black;
+  background-color: black;
 }
 header > a {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
-
-footer, footer > a {
-    display: flex;
-    justify-content: center;    
+footer,
+footer > a {
+  display: flex;
+  justify-content: center;
 }
 
-
-#cards {
-    margin-top: 3vh;
+#cards-container {
+  margin-right: 2vw;
+  margin-left: 2vw;
 }
 
 .card-group {
-    margin-left: 9vw;
-    margin-right: 8vw;
+  margin-left: 9vw;
+  margin-right: 8vw;
 }
 
 .card {
-    margin-right: 3vw;
+  margin-right: 3vw;
 }
 
 
 //Likes//
-input {
-    width: 15vw;
-    border: none;
-    background: none;
-    color: red;
-    font-size: 25px;
-    pointer-events: none;
 
+#sort {
+  margin-bottom: 3vh;
+  margin-top: 3vh;
+  margin-right: 2vw;
 }
 
 
-#likebtn, #dislikebtn {
-    color: white;
-    background: none;
-    border: none;
-    font-size: 30px;
-    cursor: pointer;
-
-}
-
-#likebtn:active, #dislikebtn:active {
-    color: red;
-    transform: scale(1.2);
-}
 //Likes//
+
 
 
 #tvshowImg {
-    display: flex;
-    justify-content: center;
-
+  display: flex;
+  justify-content: center;
 }
 
 #vpn {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
-
-
-
-
-
-// @media screen and (min-width: 700px) and (max-width: 1200px) {
-//     body {
-//         background: red;
-//     }
-
-//     #cards {
-
-//       width: 40em !important;
-//     }
-// }

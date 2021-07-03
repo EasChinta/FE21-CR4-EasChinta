@@ -6,8 +6,7 @@ var movies = `[
             "director": "Francis Ford Coppola",
             "actors": "Richard Gere, Gregory Hines, Diane Lane, Lonette McKee",
             "image":"../images/The Cotton Club.jpg",
-            "likes":"38",
-            "dislikes":"6"
+            "likes":"0"
         },
         {
             "title": "The Shawshank Redemption",
@@ -16,8 +15,7 @@ var movies = `[
             "director": "Frank Darabont",
             "actors": "Tim Robbins, Morgan Freeman, Bob Gunton, William Sadler",
             "image":"../images/The Shawshank Redemption.jpeg",
-            "likes":"78",
-            "dislikes":"2"
+            "likes":"0"
 
         },
         {
@@ -27,8 +25,7 @@ var movies = `[
             "director": "Peter Faiman",
             "actors": "Paul Hogan, Linda Kozlowski, John Meillon, David Gulpilil",
             "image":"../images/Crocodile Dundee.jpg",
-            "likes":"65",
-            "dislikes":"4"
+            "likes":"0"
 
         },
         {
@@ -38,8 +35,7 @@ var movies = `[
             "director": "Bryan Singer",
             "actors": "Tom Cruise, Kenneth Branagh, Bill Nighy, Tom Wilkinson",
             "image":"../images/Valkyrie.jpeg",
-            "likes":"93",
-            "dislikes":"8"
+            "likes":"0"
         },
         {
             "title": "Ratatouille",
@@ -48,8 +44,7 @@ var movies = `[
             "director": "Brad Bird, Jan Pinkava",
             "actors": "Patton Oswalt, Ian Holm, Lou Romano, Brian Dennehy",
             "image":"../images/Ratatouille.jpeg",
-            "likes":"34",
-            "dislikes":"1"
+            "likes":"0"
 
         },
         {
@@ -59,8 +54,7 @@ var movies = `[
             "director": "Fernando Meirelles, Kátia Lund",
             "actors": "Alexandre Rodrigues, Leandro Firmino, Phellipe Haagensen, Douglas Silva",
             "image":"../images/City of God.jpeg",
-            "likes":"64",
-            "dislikes":"2"
+            "likes":"0"
         },
         {
             "title": "Memento",
@@ -69,8 +63,7 @@ var movies = `[
             "director": "Christopher Nolan",
             "actors": "Guy Pearce, Carrie-Anne Moss, Joe Pantoliano, Mark Boone Junior",
             "image":"../images/Memento.jpg",
-            "likes":"71",
-            "dislikes":"4"
+            "likes":"0"
         },
         {
             "title": "The Intouchables",
@@ -79,8 +72,8 @@ var movies = `[
             "director": "Olivier Nakache, Eric Toledano",
             "actors": "François Cluzet, Omar Sy, Anne Le Ny, Audrey Fleurot",
             "image":"../images/The Intouchables.jpeg",
-            "likes":"92",
-            "dislikes":"13"
+            "likes":"0"
+
         },
         {
             "title": "Beetlejuice",
@@ -89,7 +82,6 @@ var movies = `[
             "director": "Tim Burton",
             "actors": "Alec Baldwin, Geena Davis, Annie McEnroe, Maurice Page",
             "image":"../images/Beetlejuice.jpg",
-            "likes":"32",
-            "dislikes":"3"
+            "likes":"0"
         }
 ]`

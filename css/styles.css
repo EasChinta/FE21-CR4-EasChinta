@@ -21,7 +21,8 @@ header > a {
           justify-content: center;
 }
 
-footer, footer > a {
+footer,
+footer > a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -30,8 +31,9 @@ footer, footer > a {
           justify-content: center;
 }
 
-#cards {
-  margin-top: 3vh;
+#cards-container {
+  margin-right: 2vw;
+  margin-left: 2vw;
 }
 
 .card-group {
@@ -43,27 +45,10 @@ footer, footer > a {
   margin-right: 3vw;
 }
 
-input {
-  width: 15vw;
-  border: none;
-  background: none;
-  color: red;
-  font-size: 25px;
-  pointer-events: none;
-}
-
-#likebtn, #dislikebtn {
-  color: white;
-  background: none;
-  border: none;
-  font-size: 30px;
-  cursor: pointer;
-}
-
-#likebtn:active, #dislikebtn:active {
-  color: red;
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+#sort {
+  margin-bottom: 3vh;
+  margin-top: 3vh;
+  margin-right: 2vw;
 }
 
 #tvshowImg {
