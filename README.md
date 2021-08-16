@@ -1,32 +1,42 @@
 # FE21-CR4-EasChinta
-CodeReview 4
 
+For this CodeReview, the following criteria were graded:
+120 points reached.
 
-Hello and welcome to my 4th CodeReview.
+(5 points) Create a GitHub Repository named: FE21-CR4-YourName. Push the files into it and send the link through the learning management system (lms). Please add codefactorygit as a collaborator! See an example of a GitHub link below:
 
+https://github.com/JohnDoe/repositoryname.git
 
-This one was particulary difficult for me as I had to deal with customising the main body with JS and I have had some difficulties the previous week with JS. 
+(5 points) Correct HTML, CSS and JavaScript code structure and code indentation.
 
-I did however, after re-watching a bunch of times the live coding video, figure out a way to make it happen.
+(20 points) Use bootstrap to help you create the provided design. You can complement your design with CSS/SASS/SCSS, but at least the container holding the film information should use bootstrap classes for responsiveness. The container should have 3 columns in a row for larger screens, 2 columns in a row on medium screens (provided layout) and 1 column in a row on small/extra small screens.
 
-One thing that I did not manage to do, was to fix the likes buttons at the bottom of the cards on the right... instead they are at the bottom of the text, making some of them be a bit higher and some a bit lower. But they work properly. 
+(15 points) Correct creation of JSON file to hold movies’ data. Please note that for this task you can provide the information/data of any movie you want. E.g:  
 
-I basically followed Serris example in the video and kinda went with it. Before that though, I had tried several other approaches that would just not work for me in the end. I have commented them all out in the JS file. 
+{
 
-I added two more pages just for fun and and a Search Bar, just for the looks of it, since it doesn't really "search" for anything. 
+    "movieName": "A Star is Born",
 
-The like increment works and when you click sort it will sort the movies by like, however, when you leave the page or refresh it they will go back to their initial value as set in the JSON file. 
+    "image": "img/star.jpg",
 
-I did try to save the value in the local storage and connect them through that, but I couldn't figure out how it works entirely so I just made it simpler.
+    "description": "Short description",
 
-Regarding the Tablet version... You will be able to see two instead of three cards on the screen at the breakpoint of 800 x 600. I only used Bootstrap for responsiveness and no media queries and this is what it gave me with the md... I tried other breakpoints but then it would also be two in large screens. 
+    "likes": 0,
 
+   
 
-Thank you for your time and have a nice rest of the weekend. 
+  }
 
+ 
 
-Kind regards, 
+(20 points) Correct creation of the HTML/Bootstrap structure dynamically using JavaScript (please do not hard code, elements should be created by JavaScript not written in the HTML file). The following should be shown on the screen: the movie name, a short description, movie poster according to the provided design. Feel free to expand the information as: genre, release date, etc...
 
+(15 points) As it is in the example template, there should be a button to every movie that calls a function which will increment the movie’s “likes” property (in the array of objects where the json data was parsed) on every button click.
 
-Eas Chinta
+(20 points) Every time the “Like” button is clicked, the number of “likes” (the number shown next to the “Like” button in the template) should increase by one.
+
+ 
+
+Bonus Points:
+(20 points) Add a Sort button that will sort the resulting list of movies according to their current like property status (e.g. on descending order of likes).
 
